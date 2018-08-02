@@ -44,7 +44,7 @@ export class AuthService {
                       .then(response => {
                         return response.json()
                       })
-                      .catch(this.handleError)
+                      .catch(this.handleError) 
   }
 
 }
